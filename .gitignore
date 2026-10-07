@@ -1,0 +1,32 @@
+# Runtime data: keep only empty directory markers
+data/*
+!data/.gitkeep
+!data/photos/
+data/photos/*
+!data/photos/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Local configuration and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.pytest-tmp/
+.coverage
+
+# Streamlit and editor files
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
